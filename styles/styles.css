@@ -1,1 +1,33 @@
-@import "globlals.css"
+@import "globals.css";
+
+#hero {
+    height: 100vh;
+    background-color: var(--color-brand-25);
+}
+
+.hero--content {
+    height: 100%;
+    margin: 0 var(--default-margin);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero--content img {
+    max-width: clamp(120px, 40vw, 190px);
+}
+
+.hero--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-s)
+}
+
+.hero--text p {
+    max-width: 90%;
+}

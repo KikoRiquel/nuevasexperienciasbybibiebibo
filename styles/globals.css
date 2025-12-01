@@ -1,3 +1,25 @@
-@import "variable/spacing.css";
+@import "variables/spacing.css";
 @import "variables/colors.css";
 @import "variables/fonts.css";
+
+body {
+    font-family: var(--manrope-font);
+    color: var(--color-brand-600)
+}
+
+.display-text {
+    font-family: var(--elsie-font);
+    font-weight: var(--elsie-black);
+    font-size: var(--font-size-4);
+}
+
+.subtitle-text {
+    font-family: var(--elsie-font);
+    font-weight: var(--elsie-black);
+    font-size: var(--font-size-2);
+}
+
+p {
+    font-family: var(--manrope-font);
+    font-size: var(--font-size-0);
+}

@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Rose:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Manrope:wght@200..800&display=swap');
 
 :root {
-
-    /* Font */
-    --font-text: 'Manrope', sans-serif;
-    --font-display-text: 'Red Rose', sans-serif;
-
     /* Font Size */
     --font-size--2: clamp(0.6944rem, 0.6719rem + 0.1002vw, 0.72rem);
     --font-size--1: clamp(0.8333rem, 0.7745rem + 0.2614vw, 0.9rem);
@@ -15,6 +10,14 @@
     --font-size-3: clamp(1.728rem, 1.3139rem + 1.8403vw, 2.1973rem);
     --font-size-4: clamp(2.0736rem, 1.4798rem + 2.6391vw, 2.7466rem);
     --font-size-5: clamp(2.4883rem, 1.6546rem + 3.7055vw, 3.4332rem);
+
+    --elsie-font: "Elsie", serif;
+    --elsie-black: 900;
+    --elsie-regular: 400;
+
+    --manrope-font: "Manrope", sans-serif;
+    --manrope-black: 900;
+    --manrope-regular: 400;
 }
 
 /* Step -2: 11.1111px → 11.52px */
