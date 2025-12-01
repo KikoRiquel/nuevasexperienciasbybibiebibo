@@ -1,0 +1,11 @@
+:root {
+    --space-3xs: clamp(0.25rem, 0.1949rem + 0.2451vw, 0.3125rem);
+    --space-2xs: clamp(0.5rem, 0.4449rem + 0.2451vw, 0.5625rem);
+    --space-xs: clamp(0.75rem, 0.6397rem + 0.4902vw, 0.875rem);
+    --space-s: clamp(1rem, 0.8897rem + 0.4902vw, 1.125rem);
+    --space-m: clamp(1.5rem, 1.3346rem + 0.7353vw, 1.6875rem);
+    --space-l: clamp(2rem, 1.7794rem + 0.9804vw, 2.25rem);
+    --space-xl: clamp(3rem, 2.6691rem + 1.4706vw, 3.375rem);
+    --space-2xl: clamp(4rem, 3.5588rem + 1.9608vw, 4.5rem);
+    --space-3xl: clamp(6rem, 5.3382rem + 2.9412vw, 6.75rem);
+}

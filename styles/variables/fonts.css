@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Rose:wght@300..700&display=swap');
+
+:root {
+
+    /* Font */
+    --font-text: 'Manrope', sans-serif;
+    --font-display-text: 'Red Rose', sans-serif;
+
+    /* Font Size */
+    --font-size--2: clamp(0.6944rem, 0.6719rem + 0.1002vw, 0.72rem);
+    --font-size--1: clamp(0.8333rem, 0.7745rem + 0.2614vw, 0.9rem);
+    --font-size-0: clamp(1rem, 0.8897rem + 0.4902vw, 1.125rem);
+    --font-size-1: clamp(1.2rem, 1.018rem + 0.8088vw, 1.4063rem);
+    --font-size-2: clamp(1.44rem, 1.1596rem + 1.2463vw, 1.7578rem);
+    --font-size-3: clamp(1.728rem, 1.3139rem + 1.8403vw, 2.1973rem);
+    --font-size-4: clamp(2.0736rem, 1.4798rem + 2.6391vw, 2.7466rem);
+    --font-size-5: clamp(2.4883rem, 1.6546rem + 3.7055vw, 3.4332rem);
+}
+
+/* Step -2: 11.1111px → 11.52px */
+/* Step -1: 13.3333px → 14.4px */
+/* Step 0: 16px → 18px */
+/* Step 1: 19.2px → 22.5px */
+/* Step 2: 23.04px → 28.125px */
+/* Step 3: 27.648px → 35.1563px */
+/* Step 4: 33.1776px → 43.9453px */
+/* Step 5: 39.8131px → 54.9316px */

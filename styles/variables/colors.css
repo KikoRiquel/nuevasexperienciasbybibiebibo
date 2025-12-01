@@ -1,0 +1,49 @@
+:root {
+    --color-brand-50: #FFF2D0;
+    --color-brand-100: #F3DAB4;
+    --color-brand-200: #E0C294;
+    --color-brand-300: #CEAA73;
+    --color-brand-400: #BB9351;
+    --color-brand-500: #A27318;
+    --color-brand-600: #875400;
+    --color-brand-700: #693800;
+    --color-brand-800: #4B1E00;
+    --color-brand-900: #2D0600;
+    --color-brand-950: #110000;
+
+    --color-electra-50: #E3FCF3;
+    --color-electra-100: #C9F3E3;
+    --color-electra-200: #A8E3CD;
+    --color-electra-300: #87CFB5;
+    --color-electra-400: #5AB294;
+    --color-electra-500: #399376;
+    --color-electra-600: #0D755A;
+    --color-electra-700: #005540;
+    --color-electra-800: #003828;
+    --color-electra-900: #001D12;
+    --color-electra-950: #000F09;
+
+    --color-shipmate-50: #E9F6FF;
+    --color-shipmate-100: #D4EAFF;
+    --color-shipmate-200: #B9D6FF;
+    --color-shipmate-300: #9DC0F4;
+    --color-shipmate-400: #79A0DB;
+    --color-shipmate-500: #5B81BB;
+    --color-shipmate-600: #3F639B;
+    --color-shipmate-700: #2A4874;
+    --color-shipmate-800: #172E50;
+    --color-shipmate-900: #07162C;
+    --color-shipmate-950: #040B17;
+
+    --color-moonlight-mauve-50: #FFEEFA;
+    --color-moonlight-mauve-100: #FFDBEF;
+    --color-moonlight-mauve-200: #F7C3DD;
+    --color-moonlight-mauve-300: #E7A8C8;
+    --color-moonlight-mauve-400: #CC85AA;
+    --color-moonlight-mauve-500: #AB678B;
+    --color-moonlight-mauve-600: #8B4B6E;
+    --color-moonlight-mauve-700: #673350;
+    --color-moonlight-mauve-800: #461E34;
+    --color-moonlight-mauve-900: #250C1A;
+    --color-moonlight-mauve-950: #14060D;
+}
