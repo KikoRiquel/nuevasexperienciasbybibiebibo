@@ -4,7 +4,9 @@
 
 body {
     font-family: var(--manrope-font);
-    color: var(--color-brand-600)
+    color: var(--color-brand-600);
+    font-size: var(--font-size-0);
+    box-sizing: border-box;
 }
 
 .display-text {
@@ -19,7 +21,13 @@ body {
     font-size: var(--font-size-2);
 }
 
-p {
-    font-family: var(--manrope-font);
-    font-size: var(--font-size-0);
+.button--primary {
+    background-color: var(--color-brand-600);
+    color: var(--color-brand-100);
+    border-radius: 200rem;
+    border-style: none;
+
+    width: 100%;
+    padding: var(--space-s) var(--space-l);
+    font-size: var(--font-size-1);
 }

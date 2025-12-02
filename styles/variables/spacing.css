@@ -9,5 +9,5 @@
     --space-2xl: clamp(4rem, 3.5588rem + 1.9608vw, 4.5rem);
     --space-3xl: clamp(6rem, 5.3382rem + 2.9412vw, 6.75rem);
 
-    --default-margin: 1.5rem;
+    --default-spacing: 1.5rem;
 }

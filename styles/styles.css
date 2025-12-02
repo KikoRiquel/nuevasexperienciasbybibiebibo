@@ -7,7 +7,7 @@
 
 .hero--content {
     height: 100%;
-    margin: 0 var(--default-margin);
+    margin: 0 var(--default-spacing);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -30,4 +30,58 @@
 
 .hero--text p {
     max-width: 90%;
+}
+
+footer {
+    height: 100vh;
+    background: #FFFDF7;
+    background: linear-gradient(180deg, var(--color-brand-25) 0%, var(--color-brand-50) 60%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--space-xl) var(--default-spacing);
+}
+
+.footer--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-s)
+}
+
+.footer--text p {
+    max-width: 90%;
+}
+
+.footer--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-s);
+    width: 100%;
+}
+
+.footer--content img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.footer--content ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--space-s);
+
+
+}
+
+.footer--content ul li a {
+    color: var(--color-brand-400);
+    text-decoration: none;
+    font-size: var(--font-size--1);
 }
