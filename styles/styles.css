@@ -96,15 +96,11 @@
 
 .productos {
     padding: var(--space-m) 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     height: 100vh;
 }
 
 .productos img {
-    height: 100%;
-    object-fit: cover;
+    width: 100%;
     border-top-left-radius: 40rem;
     border-top-right-radius: 40rem;
 }
