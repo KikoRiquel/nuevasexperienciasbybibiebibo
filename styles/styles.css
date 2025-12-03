@@ -54,9 +54,22 @@
 
 .footer--pomelo {
     width: 40%;
-    top: 45%;
-    right: 45%;
-    transform: translate(50%, -50%);
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
+
+.footer--figura {
+    width: 60%;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
+
+/* .footer--pomelo {
+    width: 40%;
+    top: 30%;
+    left: 20%;
     z-index: 1;
 }
 
@@ -65,7 +78,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 .hero--content {
     height: 100%;
@@ -96,8 +109,7 @@
 
 .productos {
     min-height: 100vh;
-    padding-top: var(--space-m);
-    padding-bottom: var(--space-3xl);
+    padding: var(--space-m) var(--default-spacing) var(--space-3xl) var(--default-spacing);
 }
 
 .productos img {
@@ -110,11 +122,11 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-s);
-    padding: var(--space-l) var(--default-spacing) 0 var(--default-spacing);
+    padding: var(--space-l) 0 0 0;
 }
 
 .producto--text p {
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .producto--teverdementa {
@@ -174,7 +186,6 @@ footer {
 }
 
 .footer--content>img {
-    display: inline-block;
     max-width: 100%;
 }
 
@@ -184,6 +195,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     gap: var(--space-s);
+    margin-top: var(--space-m);
 }
 
 .footer--content ul li a {
