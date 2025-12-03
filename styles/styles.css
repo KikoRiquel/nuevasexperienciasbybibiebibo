@@ -3,6 +3,67 @@
 #hero {
     height: 100vh;
     background-color: var(--color-brand-25);
+    position: relative;
+}
+
+.absolute--img {
+    position: absolute;
+    width: 30%;
+}
+
+.hero--mint {
+    width: 35%;
+    bottom: 20%;
+    right: -20%;
+}
+
+.footer--mint {
+    width: 35%;
+    bottom: 0%;
+    right: -20%;
+}
+
+.footer--pitahaya {
+    width: 35%;
+    bottom: 15%;
+    left: -20%;
+    rotate: -95deg;
+}
+
+.footer--pomelo {
+    width: 40%;
+    top: 45%;
+    right: 45%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+}
+
+.footer--bergamota {
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero--pitahaya {
+    width: 45%;
+    bottom: 25%;
+    left: -20%;
+    rotate: -95deg;
+}
+
+.hero--bergamota {
+    width: 45%;
+    top: 10%;
+    left: -20%;
+    rotate: 130deg;
+}
+
+.hero--pomelo {
+    width: 50%;
+    top: 5%;
+    right: 5%;
+    transform: translate(50%, -50%);
 }
 
 .hero--content {
@@ -32,6 +93,47 @@
     max-width: 90%;
 }
 
+.productos {
+    padding: var(--space-m) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.productos img {
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 40rem;
+    border-top-right-radius: 40rem;
+}
+
+.producto--text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+    padding: var(--space-l) var(--default-spacing) 0 var(--default-spacing);
+}
+
+.producto--text p {
+    max-width: 80%;
+}
+
+.producto--teverdementa {
+    background-color: var(--color-shipmate-50);
+    color: var(--color-electra-700);
+}
+
+.producto--pomeloybergamota {
+    background-color: var(--color-electra-50);
+    color: var(--color-brand-600);
+}
+
+.producto--pitahaya {
+    background-color: var(--color-moonlight-mauve-50);
+    color: var(--color-moonlight-mauve-700);
+}
+
 footer {
     height: 100vh;
     background: #FFFDF7;
@@ -43,6 +145,7 @@ footer {
     align-items: center;
 
     padding: var(--space-xl) var(--default-spacing);
+    position: relative;
 }
 
 .footer--text {
@@ -65,7 +168,13 @@ footer {
     width: 100%;
 }
 
-.footer--content img {
+.footer--fruits {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.footer--content>img {
     display: inline-block;
     max-width: 100%;
 }

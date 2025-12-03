@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    line-height: 1.3;
+}
+
 .display-text {
     font-family: var(--elsie-font);
     font-weight: var(--elsie-black);
