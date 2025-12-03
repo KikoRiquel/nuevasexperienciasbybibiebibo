@@ -27,7 +27,7 @@
 
 .hero--bergamota {
     width: 70%;
-    top: 10%;
+    top: 5%;
     left: -30%;
     rotate: 130deg;
 }
@@ -95,8 +95,9 @@
 }
 
 .productos {
-    padding: var(--space-m) 0;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-3xl);
 }
 
 .productos img {
