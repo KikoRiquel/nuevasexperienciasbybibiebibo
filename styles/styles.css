@@ -1,42 +1,116 @@
 @import "globals.css";
 
-#hero {
-    height: 100vh;
-    background-color: var(--color-brand-25);
+.hero--container {
     position: relative;
+}
+
+.hero--container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-brand-700);
+    opacity: 0.2;
+}
+
+.hero--container--image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero--container--text {
+    padding: var(--space-3xl) var(--default-spacing);
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img {
+        width: 50%;
+        align-self: center;
+    }
+
+    h1 {
+        color: var(--color-brand-25);
+        text-align: center;
+    }
+}
+
+
+.hero--subtitle--wrapper {
+    position: relative;
+    /* min-height: 350vh; */
+    min-height: min-content;
+}
+
+.hero--subtitle--text {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    div {
+        height: 100vh;
+        position: relative;
+        padding: var(--space-3xl) var(--default-spacing);
+
+        h2 {
+            position: sticky;
+            top: var(--space-3xl);
+            max-width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+.hero--subtitle--images {
+    position: relative;
+    top: 0;
+    left: 0;
+    pointer-events: none;
     overflow: hidden;
+    height: 330vh;
+
+    .h--subtitle--pitahaya {
+        position: absolute;
+        top: 0%;
+        right: -66%;
+        transform: rotate(-106deg) scale(0.5);
+    }
+
+    .h--subtitle--mint {
+        position: absolute;
+        top: 11%;
+        right: -128%;
+        transform: scale(0.5);
+    }
+
+    .h--subtitle--pomelo {
+        position: absolute;
+        top: 30%;
+        right: -85%;
+        transform: scale(0.6);
+    }
+
+    .h--subtitle--bergamota {
+        position: absolute;
+        bottom: 10%;
+        right: -36%;
+        transform: rotate(100deg) scale(0.6);
+    }
 }
 
 .absolute--img {
     position: absolute;
     width: 30%;
-}
-
-.hero--mint {
-    width: 45%;
-    bottom: 20%;
-    right: -20%;
-}
-
-.hero--pitahaya {
-    width: 60vw;
-    bottom: 25%;
-    left: -25%;
-    rotate: -110deg;
-}
-
-.hero--bergamota {
-    width: 70%;
-    top: 5%;
-    left: -30%;
-    rotate: 130deg;
-}
-
-.hero--pomelo {
-    width: 70%;
-    top: 5%;
-    right: 5%;
-    transform: translate(50%, -50%);
 }
 
 .footer--mint {
@@ -64,47 +138,6 @@
     top: 30%;
     left: 20%;
     z-index: 1;
-}
-
-/* .footer--pomelo {
-    width: 40%;
-    top: 30%;
-    left: 20%;
-    z-index: 1;
-}
-
-.footer--bergamota {
-    width: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-.hero--content {
-    height: 100%;
-    margin: 0 var(--default-spacing);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-    text-align: center;
-}
-
-.hero--content img {
-    max-width: clamp(120px, 40vw, 190px);
-}
-
-.hero--text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: var(--space-s)
-}
-
-.hero--text p {
-    max-width: 90%;
 }
 
 .productos {
