@@ -16,13 +16,13 @@ p {
 .display-text {
     font-family: var(--elsie-font);
     font-weight: var(--elsie-black);
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-5);
 }
 
 .subtitle-text {
     font-family: var(--elsie-font);
     font-weight: var(--elsie-black);
-    font-size: var(--font-size-2);
+    font-size: var(--font-size-3);
 }
 
 .button--primary {
