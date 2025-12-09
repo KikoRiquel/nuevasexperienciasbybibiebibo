@@ -57,7 +57,7 @@
     left: 0;
 
     div {
-        height: 100vh;
+        height: 110vh;
         position: relative;
         padding: var(--space-3xl) var(--default-spacing);
 
@@ -93,52 +93,22 @@
         transform: scale(0.5);
     }
 
-    .h--subtitle--pomelo {
-        position: absolute;
-        top: 30%;
-        right: -85%;
-        transform: scale(0.6);
-    }
 
     .h--subtitle--bergamota {
         position: absolute;
-        bottom: 10%;
+        bottom: 15%;
         right: -36%;
         transform: rotate(100deg) scale(0.6);
     }
+
+    .h--subtitle--pomelo {
+        position: absolute;
+        bottom: -20%;
+        right: -150%;
+        transform: scale(0.6);
+    }
 }
 
-.absolute--img {
-    position: absolute;
-    width: 30%;
-}
-
-.footer--mint {
-    width: 35%;
-    bottom: 0%;
-    right: -20%;
-}
-
-.footer--pitahaya {
-    width: 35%;
-    bottom: 15%;
-    left: -20%;
-    rotate: -95deg;
-}
-
-.footer--pomelo {
-    width: 40%;
-    top: 30%;
-    left: 20%;
-    z-index: 1;
-}
-
-.footer--figura {
-    width: 60%;
-    top: 30%;
-    left: 20%;
-    z-index: 1;
-}
 
 .productos {
     min-height: 100vh;
@@ -163,13 +133,13 @@
 }
 
 .producto--teverdementa {
-    background-color: var(--color-shipmate-50);
-    color: var(--color-electra-700);
+    background-color: var(--color-electra-50);
+    color: var(--color-shipmate-700);
 }
 
 .producto--pomeloybergamota {
-    background-color: var(--color-electra-50);
-    color: var(--color-brand-600);
+    background-color: var(--color-brand-50);
+    color: var(--color-electra-600);
 }
 
 .producto--pitahaya {
@@ -235,4 +205,36 @@ footer {
     color: var(--color-brand-400);
     text-decoration: none;
     font-size: var(--font-size--1);
+}
+
+.absolute--img {
+    position: absolute;
+    width: 30%;
+}
+
+.footer--mint {
+    width: 35%;
+    bottom: 0%;
+    right: -20%;
+}
+
+.footer--pitahaya {
+    width: 35%;
+    bottom: 15%;
+    left: -20%;
+    rotate: -95deg;
+}
+
+.footer--pomelo {
+    width: 40%;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
+
+.footer--figura {
+    width: 60%;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
 }

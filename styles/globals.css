@@ -13,6 +13,11 @@ p {
     line-height: 1.3;
 }
 
+b {
+    font-family: var(--manrope-font);
+    font-weight: var(--manrope-black);
+}
+
 .display-text {
     font-family: var(--elsie-font);
     font-weight: var(--elsie-black);
